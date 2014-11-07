@@ -30,6 +30,14 @@
       <systemPath>${basedir}/lib/mirah-tmp-classes-test.jar</systemPath>
       <optional>true</optional>
     </dependency>
+    <dependency>
+      <groupId>ca.weblite</groupId>
+      <artifactId>javafx</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <scope>system</scope>
+      <systemPath>${java.home}/lib/jfxrt.jar</systemPath>
+      <optional>true</optional>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
